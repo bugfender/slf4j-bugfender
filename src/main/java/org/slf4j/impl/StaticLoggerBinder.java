@@ -8,7 +8,7 @@ import org.slf4j.spi.LoggerFactoryBinder;
  * The binding of {@link LoggerFactory} class with an actual instance of 
  * {@link ILoggerFactory} is performed using information returned by this class. 
  * 
- * @author Ceki G&uuml;lc&uuml;
+ * @author Bugfender team
  */
 public class StaticLoggerBinder implements LoggerFactoryBinder {
 
@@ -21,7 +21,7 @@ public class StaticLoggerBinder implements LoggerFactoryBinder {
     /**
      * Return the singleton of this class.
      * 
-     * @return the StaticLoggerBinder singleton
+     * @return the org.slf4j.impl.StaticLoggerBinder singleton
      */
     public static final StaticLoggerBinder getSingleton() {
         return SINGLETON;

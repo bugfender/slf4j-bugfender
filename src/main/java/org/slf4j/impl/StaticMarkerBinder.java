@@ -27,7 +27,7 @@ public class StaticMarkerBinder implements MarkerFactoryBinder {
     /**
      * Return the singleton of this class.
      * 
-     * @return the StaticMarkerBinder singleton
+     * @return the org.slf4j.impl.StaticMarkerBinder singleton
      * @since 1.7.14
      */
     public static StaticMarkerBinder getSingleton() {
